@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--css-->
+	<link type="text/css" rel="stylesheet" href="../css/display2_style.css">
+	<link type="text/css" rel="stylesheet" href="../css/display2.css">
+	<title>Display2</title>
+</head>
+
+<body>
+
+	<!-- container(부모)에 적용하는 속성 -->
+
+	<!-- flex-direction -->
+	<div class="flex-direction">
+		<div id="container" class="flex-direction_row">
+			<!--원활한 설명을 위해 class명을 좀 길게 작성했어요ㅠ 이해해주세요ㅠㅠ-->
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="flex-direction_row-reverse">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="flex-direction_column">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="flex-direction_column-reverse">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<!-- flex-wrap -->
+	<!-- <div class="flex-wrap">
+		<div id="container" class="flex-wrap_nowrap">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="flex-wrap_wrap">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="flex-wrap_wrap-reverse">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+	</div>
+
+	<hr> -->
+
+	<!-- align-items -->
+	<!-- <div class="align-items">
+		<div id="container" class="align-items_stretch">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-items_flex-start">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-items_center">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-items_flex-end">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-items_baseline">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+	</div>
+
+	<hr> -->
+
+	<!-- justify-content -->
+	<!-- <div class="justify-content">
+		<div id="container" class="justify-content_flex-start">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="justify-content_center">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="justify-content_flex-end">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="justify-content_space-between">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="justify-content_space-around">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="justify-content_space-evenly">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+	</div>
+
+	<hr> -->
+
+	<!-- align-content -->
+	<!-- <div class="align-content">
+		<div id="container" class="align-content_stretch">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-content_flex-start">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-content_center">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-content_flex-end">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-content_space-between">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-content_space-around">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+		<div id="container" class="align-content_space-evenly">
+			<div id="item">A</div>
+			<div id="item">B</div>
+			<div id="item">C</div>
+		</div>
+	</div>
+
+	<hr> -->
+
+	<!-- item(자식)에 적용하는 속성 -->
+
+	<!-- flex-basis -->
+	<!-- <div class="flex-basis">
+		<div id="container">
+			<div id="item1" class="flex-basis_item">flex-basis랍니다</div>
+			<div id="item1" class="width_item">width랍니다</div>
+		</div>
+	</div>
+
+	<hr> -->
+
+	<!-- flex-grow -->
+	<!-- <div class="flex-grow">
+		<div id="container">
+			<div id="item" class="flex-grow_0">A</div>
+			<div id="item" class="flex-grow_0">B</div>
+			<div id="item" class="flex-grow_0">C</div>
+		</div>
+		<div id="container">
+			<div id="item" class="flex-grow_0">A</div>
+			<div id="item" class="flex-grow_2">B</div>
+			<div id="item" class="flex-grow_3">C</div>
+		</div>
+	</div>
+
+	<hr> -->
+
+	<!-- flex-shrink -->
+	<!-- <div id="container" class="flex-shrink">
+		<div class="flex-shrink_item">
+			<div id="item" class="flex-shrink_0">A</div>
+			<div id="item" class="flex-shrink_0">B</div>
+			<div id="item" class="flex-shrink_0">C</div>
+		</div>
+		<div class="flex-shrink_item">
+			<div id="item" class="flex-shrink_0">A</div>
+			<div id="item" class="flex-shrink_1">B</div>
+			<div id="item" class="flex-shrink_3">C</div>
+		</div>
+	</div>
+
+	<hr> -->
+
+	<!-- align-self -->
+	<!-- <div class="align-self">
+		<div id="container">
+			<div id="item" class="align-self_auto">A</div>
+			<div id="item" class="align-self_auto">B</div>
+			<div id="item" class="align-self_auto">C</div>
+		</div>
+		<div id="container">
+			<div id="item" class="align-self_stretch">A</div>
+			<div id="item" class="align-self_stretch">B</div>
+			<div id="item" class="align-self_stretch">C</div>
+		</div>
+		<div id="container">
+			<div id="item" class="align-self_flex-start">A</div>
+			<div id="item" class="align-self_flex-start">B</div>
+			<div id="item" class="align-self_flex-start">C</div>
+		</div>
+		<div id="container">
+			<div id="item" class="align-self_center">A</div>
+			<div id="item" class="align-self_center">B</div>
+			<div id="item" class="align-self_center">C</div>
+		</div>
+		<div id="container">
+			<div id="item" class="align-self_flex-end">A</div>
+			<div id="item" class="align-self_flex-end">B</div>
+			<div id="item" class="align-self_flex-end">C</div>
+		</div>
+		<div id="container">
+			<div id="item" class="align-self_baseline" style="font-size: 30px;">A</div>
+			<div id="item" class="align-self_baseline">B</div>
+			<div id="item" class="align-self_baseline" style="font-size: 50px;">C</div>
+		</div>
+	</div> -->
+
+</body>
+
+</html>
